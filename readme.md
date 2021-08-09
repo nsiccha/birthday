@@ -1,7 +1,4 @@
-So I've been talking with/at @avehtari about the Birthday problem and we think this
-might be of general interest.
-
-This will be about three things:
+This is not yet finished but will be about three things:
 
 * a workflow to find a reasonable and computationally efficient model and configuration,
 * a simple visualization to assess the convergence of approximate Gaussian process,
@@ -467,7 +464,7 @@ Indeed, everything looks quite horrible.
 ![model 4 visualization](figs/m4_viz.gif)
 ![model 4 visualization](figs/m4_wviz.gif)
 
-Adding all of our previous fixes fixes almost all of our problems:
+Adding all of our previous fixes removes almost all of our problems:
 
 ### Model 4: No intercept, GP1(larger length-scale, lower SD), DOW sum-to-zero
 
